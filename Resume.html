@@ -1,0 +1,281 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<title>Personal-Resume</title>
+		<link rel="shortcut icon"
+			href="img/panda_128px_1202518_easyicon.net.ico">
+
+		<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+		<meta http-equiv="description" content="this is my page">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+		<!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+		<meta content="utf-8">
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<script src="jquery.min.js"></script>
+		<script src="bootstrap.min.js"></script>
+
+		<style type="text/css">
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+header {
+	background-color: #ffe4c4;
+}
+
+main {
+	padding-bottom: 100px;
+}  /* main的padding-bottom值要等于或大于footer的height值 */
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #ffc0cb;
+}
+
+/*******************************
+
+             TYPOGRAPHY
+
+*******************************/
+.b {font-weight：bold
+	
+}
+
+.right {
+	text-align: right
+}
+
+.center {
+	text-align: center
+}
+
+/*******************************
+
+      Navigation in header
+
+*******************************/
+.navbar-collapse .navbar-nav {
+	float: none;
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	text-align: center;
+}
+
+.navbar-collapse .navbar-nav>li {
+	float: none;
+	display: inline-block;
+}
+
+/*******************************
+
+            HEADER
+
+*******************************/
+#head {
+	background: #f4f4f4 url(img/1.jpg) top center;
+	background-size: cover;
+	color: #7C7C7C;
+	padding: 35px 0 35px 0;
+}
+
+/********************************
+
+          Footer
+          
+********************************/
+#footer {
+	background: #232323;
+	padding: 30px 0 0 0;
+	font-size: 12px;
+	color: #999;
+}
+
+.container {
+	max-width: 1080px;
+}
+
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.col-md-12 {
+	width: 100%;
+}
+
+.text-center {
+	text-align: center;
+}
+</style>
+
+	</head>
+
+	<body>
+		<header id="header">
+		<div class="center row section topspace parallax " parallax-speed="2"
+			style="background-position: center 0px;" id="head">
+
+			<h1>
+				<span> 王思凡 <br> 电话：13914562320 <br />
+					E-mail：wsfzjjk951@outlook.com </span>
+			</h1>
+		</div>
+		</header>
+		<nav class="navbar navbar-default navbar-sticky">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+
+			<nav class="navbar-collapse collapse navbar-collapse-1">
+			<ul class="nav navbar-nav  ">
+				<li>
+					<a class="navbar-brand" href="Main.html">主页</a>
+				</li>
+				<li>
+					<a class="navbar-brand" href="Resume.html">个人简历</a>
+				</li>
+				<li>
+					<a class="navbar-brand" href="Life.html">兴趣</a>
+				</li>
+			</ul>
+			</nav>
+
+		</div>
+		</nav>
+
+
+		<main id="main"></main>
+		<div class="container">
+			<div class="row topspace">
+
+				<aside class="col-sm-4 sidebar sidebar-right">
+				<ul class="nav text-right nav-side">
+					<li>
+						<a href="#教育背景">教育背景</a>
+					</li>
+					<li>
+						<a href="#技能">技能</a>
+					</li>
+					<li>
+						<a href="#课程设计">课程设计</a>
+					</li>
+					<li>
+						<a href="#兴趣爱好">兴趣爱好</a>
+					</li>
+					<li>
+						<a href="#自我评价">自我评价</a>
+					</li>
+				</ul>
+				</aside>
+
+				<article class="col-sm-8 maincontent">
+				<h4 id="教育背景">
+					教育背景
+				</h4>
+				<p>
+					<span>2015.09~2017.06</span> &nbsp;&nbsp;
+					<i> <b>南京财经大学</b> </i> ，软件工程 ，本科
+				</p>
+				<br>
+				<p>
+					<span>2010.09~2015.06</span> &nbsp;&nbsp;
+					<i> <b>镇江高等职业技术学院</b> </i> ，数控机床，专科
+				</p>
+				<br>
+
+				<h4 id="技能">
+					技能
+				</h4>
+				<p>
+					学习过：&nbsp;&nbsp;Java，JavaScript，jsp，C，Oracle，Mysql，Liunx，Tomcat
+					<br>
+					会使用：&nbsp;&nbsp;Myeclipse开发工具
+					<br>
+					了解：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML，CSS，XML和一些Bootstrap
+					<br>
+				</p>
+				<br>
+				<h4 id="课程设计">
+					课程设计
+				</h4>
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通过跟跟老师学习，创建了一个学生信息表，创建WEB工程在jsp中用
+					<b>JDBC</b>
+					<br>
+					连接数据库来实现对数据的一些增删改查，后来通过学习将增删改查的
+					<b>JSP</b>用
+					<br>
+					<b>Servlet</b>的形式展示出来，用
+					<b>XML</b>制作一个过滤器实现了学生信息的登陆。
+
+				</p>
+				<br>
+
+				<h4 id="兴趣爱好">
+					兴趣爱好
+				</h4>
+				<p>
+					喜欢音乐，电影，旅游，滑板&nbsp;更喜爱游戏
+				</p>
+				<br>
+
+				<h4 id="自我评价">
+					自我评价
+				</h4>
+				<p>
+					本人勤奋诚实，善于沟通，较强的责任心 ；较强的条理性与逻辑能力 ；能较快
+					<br>
+					的接受各种新技术。拥有良好的团队协作精神。
+				</p>
+				<br>
+				</article>
+
+
+
+
+			</div>
+		</div>
+
+		<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 widget">
+					<div class="widget-body">
+						<p class="text-center">
+							Copyright © 2017-2018.&nbsp;All Rights Reserved.
+							<br>
+							&nbsp;Design by:
+							<a href="http://166b4h4917.51mypc.cn/" rel="designer">Wang
+								SiFan</a>
+						</p>
+					</div>
+				</div>
+
+			</div>
+			<!-- /row of widgets -->
+		</div>
+		</footer>
+	</body>
+</html>
